@@ -1,0 +1,225 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="9R12ic9qPoWY5e4w3eaL">
+    <mxGraphModel dx="4177" dy="4189" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-1" value="vehicles" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="-1610" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-2" value="+&lt;u&gt;vehicle _id&lt;/u&gt;&lt;br&gt;+listing_id&lt;br&gt;+make&lt;div&gt;+model&lt;/div&gt;&lt;div&gt;+year&lt;/div&gt;&lt;div&gt;+fuel_type&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="nyNTtIk-MXM4-q59GgY_-1" vertex="1">
+          <mxGeometry y="50" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-3" value="listings" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="-1810" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-4" value="+&lt;u&gt;listing_id&lt;/u&gt;&lt;br&gt;+seller_id&lt;div&gt;+category_id&lt;/div&gt;&lt;div&gt;+title&lt;br&gt;+description&lt;/div&gt;&lt;div&gt;+price&lt;/div&gt;&lt;div&gt;+currency&lt;/div&gt;&lt;div&gt;+listing_type&lt;/div&gt;&lt;div&gt;+location&lt;/div&gt;&lt;div&gt;+posted_data&lt;/div&gt;&lt;div&gt;+status&lt;/div&gt;&lt;div&gt;+views_count&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="nyNTtIk-MXM4-q59GgY_-3" vertex="1">
+          <mxGeometry y="50" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-5" value="multimedia" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="-2150" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-6" value="+&lt;u&gt;media_id&lt;/u&gt;&lt;div&gt;+listing_id&lt;br&gt;+file_path&lt;br&gt;+media_type&lt;/div&gt;&lt;div&gt;+upload_data&lt;/div&gt;&lt;div&gt;+description&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="nyNTtIk-MXM4-q59GgY_-5" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-7" value="users" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="-1800" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-8" value="+&lt;u&gt;user_id&lt;/u&gt;&lt;br&gt;+username&lt;br&gt;+email&lt;div&gt;+password_hash&lt;/div&gt;&lt;div&gt;+phone_number&lt;/div&gt;&lt;div&gt;+registration_data&lt;/div&gt;&lt;div&gt;+user_type&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="nyNTtIk-MXM4-q59GgY_-7" vertex="1">
+          <mxGeometry y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-9" value="properties" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="-1930" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-10" value="+&lt;u&gt;property_id&lt;/u&gt;&lt;br&gt;+listing_id&lt;br&gt;+property_type&lt;div&gt;+area_sqm&lt;/div&gt;&lt;div&gt;+amenities&lt;/div&gt;&lt;div&gt;+city&lt;/div&gt;&lt;div&gt;+district&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="nyNTtIk-MXM4-q59GgY_-9" vertex="1">
+          <mxGeometry y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-11" value="contracts" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="-1200" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-12" value="+&lt;u&gt;contract _id&lt;/u&gt;&lt;br&gt;+listing_id&lt;br&gt;+buyer_id&lt;div&gt;+contract_type&lt;/div&gt;&lt;div&gt;+start_date&lt;/div&gt;&lt;div&gt;+end_date&lt;/div&gt;&lt;div&gt;+agreed_price&lt;/div&gt;&lt;div&gt;+contract_status&lt;/div&gt;&lt;div&gt;+contract_details&lt;/div&gt;&lt;div&gt;+signed_date&lt;/div&gt;&lt;div&gt;+contract_file_url&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="nyNTtIk-MXM4-q59GgY_-11" vertex="1">
+          <mxGeometry y="50" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-13" value="notifications" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-840" y="-2200" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-14" value="+&lt;u&gt;notification_id&lt;/u&gt;&lt;br&gt;+user_id&lt;br&gt;+notification_type&lt;div&gt;+message&lt;/div&gt;&lt;div&gt;+is_read&lt;/div&gt;&lt;div&gt;+sent_at&lt;/div&gt;&lt;div&gt;+related_entiyy_id&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="nyNTtIk-MXM4-q59GgY_-13" vertex="1">
+          <mxGeometry y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-15" value="categories" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-2220" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-16" value="+&lt;u&gt;category_id&lt;/u&gt;&lt;br&gt;+category_name&lt;br&gt;+description" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="nyNTtIk-MXM4-q59GgY_-15" vertex="1">
+          <mxGeometry y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-17" value="ratings" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="-1560" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-18" value="+&lt;u&gt;rating_id&lt;/u&gt;&lt;br&gt;+listing_id&lt;br&gt;+reviewer_id&lt;div&gt;+rating_value&lt;/div&gt;&lt;div&gt;+comment&lt;/div&gt;&lt;div&gt;+rating_date&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="nyNTtIk-MXM4-q59GgY_-17" vertex="1">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-19" value="payments" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-940" y="-1290" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNTtIk-MXM4-q59GgY_-20" value="+&lt;u&gt;payment _id&lt;/u&gt;&lt;br&gt;+contract_id&lt;br&gt;+payer_id&lt;div&gt;+amount&lt;/div&gt;&lt;div&gt;+payment _date&lt;/div&gt;&lt;div&gt;+payment _method&lt;/div&gt;&lt;div&gt;+payment _receipt_url&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="nyNTtIk-MXM4-q59GgY_-19" vertex="1">
+          <mxGeometry y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmandOne;endFill=0;" parent="1" source="trJZjTzTKb3Ui1qxA--o-1" target="nyNTtIk-MXM4-q59GgY_-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-170" y="-1695" />
+              <mxPoint x="-170" y="-1695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;shape=link;" parent="1" source="trJZjTzTKb3Ui1qxA--o-1" target="nyNTtIk-MXM4-q59GgY_-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trJZjTzTKb3Ui1qxA--o-1" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Seller-Listings&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="-1730" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-9" target="nyNTtIk-MXM4-q59GgY_-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-9" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Category-Listings&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="330" y="-2060" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.432;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERoneToMany;endFill=0;shape=link;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-9" target="nyNTtIk-MXM4-q59GgY_-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="-1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ef52uEC7CkeEdAFDP4J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-13" target="nyNTtIk-MXM4-q59GgY_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-13" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Listing-Property&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-1890" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-13" target="nyNTtIk-MXM4-q59GgY_-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="718" y="-1860" />
+              <mxPoint x="718" y="-1770" />
+              <mxPoint x="505" y="-1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;shape=link;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-17" target="nyNTtIk-MXM4-q59GgY_-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-17" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Listing-Vehicle&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-1540" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.011;entryY=0.946;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-17" target="nyNTtIk-MXM4-q59GgY_-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-21" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Listing-Contracts&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-1420" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-21" target="nyNTtIk-MXM4-q59GgY_-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.654;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERoneToMany;endFill=0;shape=link;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-21" target="nyNTtIk-MXM4-q59GgY_-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-25" target="nyNTtIk-MXM4-q59GgY_-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-345" y="-1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-25" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Buyer-Contracts&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-585" y="-1250" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.013;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERoneToMany;endFill=0;shape=link;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-25" target="nyNTtIk-MXM4-q59GgY_-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=ERmandOne;endFill=0;shape=link;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-28" edge="1" target="nyNTtIk-MXM4-q59GgY_-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-340.42857142857133" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-28" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Contract-Payments&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="-880" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.136;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERoneToMany;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-28" target="nyNTtIk-MXM4-q59GgY_-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-31" target="nyNTtIk-MXM4-q59GgY_-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-910" y="-1550" />
+              <mxPoint x="-910" y="-1770" />
+              <mxPoint x="-400" y="-1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;shape=link;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-31" target="nyNTtIk-MXM4-q59GgY_-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-31" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Payer-Payments&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-765" y="-1580" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.904;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-34" target="nyNTtIk-MXM4-q59GgY_-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="-880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="-1660" />
+              <mxPoint x="510" y="-1579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;shape=link;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-34" target="nyNTtIk-MXM4-q59GgY_-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-34" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Listing-Ratings&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-1690" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-37" target="nyNTtIk-MXM4-q59GgY_-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-37" target="nyNTtIk-MXM4-q59GgY_-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="-730" />
+              <mxPoint x="-990" y="-730" />
+              <mxPoint x="-990" y="-1670" />
+              <mxPoint x="-400" y="-1670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-37" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Reviewer-Ratings&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="950" y="-1450" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-40" target="nyNTtIk-MXM4-q59GgY_-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-45" y="-1920" />
+              <mxPoint x="-320" y="-1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-40" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;User-Notifications&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="-2260" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.019;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERoneToMany;endFill=0;shape=link;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-40" target="nyNTtIk-MXM4-q59GgY_-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-677" y="-2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-43" target="nyNTtIk-MXM4-q59GgY_-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;shape=link;" parent="1" source="c9NJ4cP0NUD6RhcY0gDH-43" target="nyNTtIk-MXM4-q59GgY_-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9NJ4cP0NUD6RhcY0gDH-43" value="&lt;span style=&quot;color: oklch(0.93 0.003 106.451); font-family: fkGroteskNeue, &amp;quot;fkGroteskNeue Fallback&amp;quot;, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: oklch(0.217 0.002 197.042);&quot;&gt;Listing-Multimedia&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="780" y="-2040" width="160" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
